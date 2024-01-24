@@ -1,0 +1,20 @@
+{
+  "name": "TSWD Assistant",
+  "version": "1.0.0",
+  "description": "Chat Assistant",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.5.0",
+    "electron-packager": "^17.1.1"
+  },
+  "dependencies": {
+    "color-namer": "^1.4.0",
+    "electron-color-picker": "^0.2.0",
+    "electron-store": "^8.1.0"
+  }
+}

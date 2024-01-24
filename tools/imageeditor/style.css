@@ -1,0 +1,387 @@
+/*
+Theme Name: Divi Tswd
+Theme URI:      https://www.elegantthemes.com/gallery/divi/
+Description: Theme enfant du theme Divi. Vous pouvez desormais le personnaliser sans risquer de perdre vos modifications
+Author: TSWD
+Author URI: https://tswd.fr
+Template: Divi
+Version: 1.0
+*/
+
+
+
+#qt_fep-post-content_toolbar input{
+    background: gray !important;
+     background-color: gray !important;
+}
+
+#logo{
+        width: 37px;
+    margin-top: 21px;
+    filter:saturate(0);
+
+}
+
+@media screen and (max-width:980px){
+    
+    #logo{
+        
+    margin-top: 0;
+
+}
+}
+
+
+
+.page-id-478 .et_overlay{
+    opacity: 0.5;
+    z-index: inherit;
+}
+
+
+
+
+
+.wpcf7-response-output{
+	    border: none!important;
+    background: #2ea2cc !important;
+    color: white;
+    font-weight: 200;
+}
+.wt_embed__icon--add{
+	filter: hue-rotate(-15deg);
+}
+/*-------------- BASICS---------------------*/
+
+
+#left-areat ul,
+#left-area li, #left-area ul li {
+  list-style-type: square !important;
+  list-style: square !important;
+}
+
+.et_pb_module h1.entry-title{
+  font-weight: bold;
+    font-size: 59px;
+    font-weight: bolder;
+        color: #c7c7c7;
+    
+
+}
+.page-id-478 .et_pb_blog_grid h2 {/*page astuces*/
+    min-height: 50px;
+}
+/*-----------------------------------*/
+.category-notes .entry-title {
+  font-weight: bolder;
+  font-size: 41px;
+  width: 100%;
+  margin-bottom: 0;
+  color: gray;
+}
+
+.category-notes h2,
+.category-notes h3,
+.category-notes h4,
+.category-notes h5 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  position: relative
+}
+
+.category-notes h2:after,
+.category-notes h3:after,
+.category-notes h4:after,
+.category-notes h5:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #cecdcd;
+  bottom: 0;
+  left: 0;
+}
+
+.category-notes hr {
+  border: 3px solid #d54e21;
+}
+
+
+.category-notes .guteurlsBox {
+  width: 100%;
+  max-width: 300px;
+  margin: inherit;
+  background-color: transparent;
+  opacity: 0.6;
+
+}
+
+.category-notes .guteurlsBox:hover {
+  opacity: 1;
+
+}
+
+.category-notes a {}
+
+.guteurlsBox h1,
+.guteurlsBox p,
+.guteurlsBottom {
+  display: none !important;
+}
+
+/*----formulaire de connexion -----*/
+
+@media screen and (max-width:680px) {
+  .tswd-wrap {
+    flex-direction: column;
+  }
+
+  .tswd-wrap .left-sid,
+  .tswd-wrap .right-sid {
+    width: 100% !important;
+
+
+  }
+
+  .tswd-wrap .left-sid {
+    padding: 30px 0 0 0;
+
+  }
+
+  .tswd-wrap .right-sid {
+    padding: 6% 0;
+
+  }
+}
+
+
+/*---------------------*/
+
+
+#et-main-area,
+#main-content {
+  background: #eeecec !important;
+  background-color: #eeecec !important;
+
+}
+
+#footer-info {
+  font-weight: bolder;
+}
+
+/*--------------------------*/
+.logo_container {
+
+  opacity: 1 !important;
+  display: block !important;
+}
+
+.logo_container a img {
+    max-height: 60px !important;
+        margin-top: 11px;
+    margin-right: 6px;
+
+
+}
+
+.logo_container a:after {
+
+  content: "WEBDESIGN Support";
+  font-weight: bolder;
+  color: #615e5a;
+  position: absolute;
+  top: 30px;
+
+}
+
+.et_slide_menu_top div#et-info {
+  /* width: 100%; */
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/*------------------------------*/
+
+#calculatrice .et_pb_code_inner {
+  display: flex;
+  justify-content: center;
+}
+
+#calculatrice .calc .result .current {
+  position: absolute !important;
+  bottom: 22px !important;
+}
+
+#calculatrice .calc {
+  width: 520px !important;
+}
+
+
+#calculatrice h1 {
+  color: #d54e21 !important;
+}
+
+#calculatrice .calc {
+  filter: inherit !important;
+  background: #2b2a2a !important
+}
+
+#calculatrice .calc .result {
+  background: #302d2d;
+
+}
+
+#calculatrice .calc .buttons div {
+  background: #312f2f;
+
+}
+
+/*------------------------- BLOG  / SNIPPETS------------------------------*/
+.sorting-posts {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sorting-posts button {
+  background: #666;
+  padding: 4px;
+  margin: 4px !important;
+  cursor: pointer;
+}
+
+.blog .post-meta,
+.blog .post-meta a {
+  color: #d54e21 !important;
+}
+
+.popup-ptf .post-meta {
+  display: none !important;
+}
+
+.popup-ptf .entry-title a {}
+
+/*----------- popup ptf-------------*/
+
+.popup-ptf {
+  z-index: 99999 !important;
+  position: fixed;
+  top: 0;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  color: graytext;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-ptf article {
+  background: transparent !important;
+}
+
+
+.popup-ptf strong {
+  color: #2070ba;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 12px;
+  margin-top: 22px;
+}
+
+.popup-ptf .et_pb_text_inner {
+  width: 80% !important;
+  margin: auto;
+}
+
+.popup-ptf .et_pb_section {
+  padding: 0;
+}
+
+
+.popup-ptf>div {
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 3px;
+  width: 90vw;
+  height: 90vh;
+  max-width: 850px;
+  max-height: 650px;
+  overflow-y: scroll;
+  padding: 50px 25px;
+  padding-bottom: 50px !important;
+
+  box-shadow: 0 9px 30px rgba(0, 0, 0, 0.4);
+}
+
+.popup-ptf-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  opacity: 0.5;
+  max-width: 20px;
+}
+
+
+.popup-ptf button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/*----------- popup ptf fin---------*/
+
+
+
+
+/*-------------scrollbar front----------------------*/
+
+*::-moz-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-moz-scrollbar-button:start:decrement {
+  height: 0px;
+  display: block;
+  background-color: white;
+}
+
+*::-webkit-scrollbar-button:start:decrement,
+*::-webkit-scrollbar-button:end:increment {
+  height: 0px;
+  display: block;
+  background-color: white;
+}
+
+*::-moz-scrollbar-track-piece {
+  background-color: white;
+  /*Global Track Peice(the slider noob.)*/
+  -webkit-border-radius: 0px;
+}
+
+*::-webkit-scrollbar-track-piece {
+  background-color: white;
+  /*Global Track Peice(the slider noob.)*/
+  -webkit-border-radius: 0px;
+}
+
+*::-moz-scrollbar-thumb:vertical {
+  height: 50px;
+  background-color: #d54e21;
+  /* Up/Down slider background*/
+  -webkit-border-radius: 0px;
+}
+
+*::-webkit-scrollbar-thumb:vertical {
+  height: 50px;
+  background-color: #d54e21;
+  /* Up/Down slider background*/
+  -webkit-border-radius: 0px;
+}

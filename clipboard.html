@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clipboard History</title>
+</head>
+<body>
+    <h1>Clipboard History</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Clipboard Content</th>
+            </tr>
+        </thead>
+        <tbody id="clipboard-items">
+        </tbody>
+    </table>
+
+<script src="renderer.js"></script>
+<style type="text/css">
+tr {
+    margin: .5em;
+    display: block;
+}
+body{
+    padding: 1em;
+    background: #343541;
+}
+body *{
+    font-family: sans-serif;
+    color: white;
+}
+</style>
+</body>
+</html>
