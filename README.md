@@ -2,7 +2,7 @@
 
 Embarquez votre assistant personnel dans une fenêtre qui se superpose aux autre en faisant CTRL + ESPACE
 
-![TSWD Assistant](screenshot.png)
+![TSWD Assistant](screenshot.jpg)
 
 
 ----
